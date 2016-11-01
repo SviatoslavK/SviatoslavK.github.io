@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo {
+    margin-top: 10px;
+}
+.nav--header {
+   margin-top: 29px;
+}
+.nav--480px {
+    display: none;
+}
+.slider {
+   height: 400px;
+   margin-top: 172px;
+   background: url(../img/background/overlay-ie8.png); 
+}
+.slider__paragraph--ie8 {
+    display: none;
+}
+.slider-nav__item {
+    background-color: transparent;
+    background-image: url(../img/background/slider-nav__item.png)
+}
+.slider-nav__link:hover {
+    background-color: transparent;
+    background: url(../img/background/slider-nav__link.png);
+    background-size: cover;
+    background-position: center center;
+}
+.about__block--block1--right {
+    display: none;
+}
+.about__block--block1--left {
+    display: none;
+}
+.about__block--block1--center {
+    display: none;
+}
+.about__block--block1>h3 {
+   left: 50px;
+}
+.about__block--block2>h3 {
+   left: 50px;
+}
+.about__block--block3>h3 {
+   left: 53px;
+}
+.about__link {
+   top: 181px;
+   left: 210px
+}
+.feedback-nav__item {
+    border: 0;
+    height: 18px;
+    width: 18px;
+    background-color: transparent;
+    background-image: url(../img/background/feedback-nav__item.png);
+}
+.feedback-nav__link:hover {
+    background-color: transparent;
+    height: 13px;
+    width: 13px;
+    background: url(../img/background/feedback-nav__link.png);
+    background-size: cover;
+    background-position: center center;
+}
+.blog {
+   width: 460px;
+   margin-left: 44px;
+}
+.comments__block--block3--left {
+    display: none;
+}
+.comments__block--block3--center {
+    display: none;
+}
+.comments__block--block3--right {
+    display: none;
+}
+.copyright {
+    width: 200px;
+}
