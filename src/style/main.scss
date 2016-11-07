@@ -1,0 +1,17 @@
+/*
+* Third Party
+*/
+@import "../../bower_components/strict-reset.css/_strict-reset.scss";
+@import "../../bower_components/font-awesome/scss/font-awesome.scss";
+@import "../../bower_components/animate.css/animate.css";
+
+/*
+* Custom
+*/
+@import "partials/_utils.scss";
+@import "partials/header.scss";
+@import "partials/about.scss";
+@import "partials/skills.scss";
+@import "partials/education.scss";
+@import "partials/portfolio.scss";
+@import "partials/footer.scss";

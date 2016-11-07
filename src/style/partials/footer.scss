@@ -1,0 +1,25 @@
+@import "_variables";
+@import "_utils";
+
+.footer {
+    border-top: 3px solid $green;
+    margin-top: $section-mt;
+    padding: 30px 0;
+}
+.footer__item {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    @include respond-to(tablet) {
+        width: 32%;
+    }
+}
+.footer-icon {
+    display: block;
+    
+}
+.footer__text {
+    display: block;
+    margin-top: 5px;
+}

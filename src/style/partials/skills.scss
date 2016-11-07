@@ -1,0 +1,108 @@
+@import "_variables";
+@import "_utils";
+
+.skills {
+    margin-top: $section-mt;
+}
+.card--skills {
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    background-color: $green;
+}
+.skills__item {
+    width: 90%;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 20px auto;
+    @include respond-to(tablet) {
+        display: inline-block;
+        width: 44%;
+    }
+}
+.skills__item--item1 {
+    @include respond-to(tablet) {
+        margin-right: 2%;
+    }
+}
+.card__header--skills {
+    color: $text-light;
+    font-weight: 500;
+    font-size: 24px;
+    @include respond-to(tablet) {
+        text-align: left;
+        font-size: 28px;
+    }
+}
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 17px;
+    margin-top: 45px;
+    width: 100%;
+    padding: 0;
+    background: #05985a;
+    height: 4px;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+.skillbar__title {
+    position: absolute;
+    top: -25px;
+    left: 0;
+    font-size: 1em;
+    color: $text-light;
+}
+.skillbar__bar {
+    width: 0;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
+    opacity: 1;
+    height: 4px;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+    transition: transform 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s, opacity 1.8s cubic-bezier(0.6, 0.2, 0.1, 1) 0.3s;
+}
+.skillsbar__bar--html {
+    
+    width: 90%;
+}
+.skillsbar__bar--css {
+    width: 85%;
+}
+.skillsbar__bar--js {
+    width: 75%;
+}
+.skillsbar__bar--jquery {
+    width: 70%;
+}
+.skillsbar__bar--sass {
+    width: 80%;
+}
+.skillsbar__bar--gulp {
+    width: 85%;
+}
+.skillsbar__bar--bower {
+    width: 85%;
+}
+.skillsbar__bar--git {
+    width: 90%;
+}
+.skillsbar__bar--emmet {
+    width: 90%;
+}
+.skillsbar__bar--bem {
+    width: 95%;
+}
+.skillbar__percent {
+    position: absolute;
+    right: 1px;
+    top: -20px;
+    font-size: .8em;
+    line-height: 15px;
+    color: $text-light;
+}
